@@ -37,8 +37,8 @@ Computer = [
 
 # Сотрудники
 HDD = [
-    HDD(1,'Samsung',  1000, 1),
-    HDD(2,'SEAGATE', 2500, 3),
+    HDD(1,'Amsung',  1000, 1),
+    HDD(2,'ASEAGATE', 2500, 3),
     HDD(3,'TOSHIBA', 500, 3),
     HDD(4,'HITACHI', 5000, 2),
     HDD(5,'WESTERN DIGITAL', 3000, 3)
@@ -83,7 +83,7 @@ def main():
     first_res = {} 
 
     for l in HDD:
-        if 'S' == l.name[0]:
+        if 'A' == l.name[0]:
             hdd = list((filter(lambda i: i[0] == l.name, one_to_many)))
             l_comp_names = [f[2] for f in hdd]
             first_res[l.name] = l_comp_names
