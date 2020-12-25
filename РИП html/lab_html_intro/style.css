@@ -1,0 +1,48 @@
+th,
+td {
+    border: 1px solid black;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li {
+    background-color: burlywood;
+    color: black;
+}
+
+strong {
+    font-size: 45px;
+}
+
+.Header h1 {
+    text-align: center;
+}
+
+.num_spisok h1 {
+    text-align: center;
+    font-size: 45px;
+}
+
+.num_spisok li {
+    margin-left: 35px;
+}
+
+.first_image {
+    width: 1850px;
+    height: 600px
+}
+
+.second_image {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.second_image img {
+    width: 600px;
+}

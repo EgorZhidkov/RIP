@@ -1,0 +1,20 @@
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.text_form input {
+    border-radius: 5px;
+    border: solid red;
+}
+
+.form {
+    display: flex;
+    background-color: burlywood;
+    justify-content: center;
+    margin: 0 450px 0 450px;
+}
+
+.spisok {
+    margin-top: 20px;
+}

@@ -1,0 +1,26 @@
+body {
+    background-color: #343a40;
+    color: white;
+    font-size: 25px;
+}
+
+.header {
+    background-color: burlywood;
+    margin-bottom: 50px;
+}
+
+.nav-item {
+    justify-content: space-between;
+}
+
+.nav-link {
+    color: white;
+}
+
+.table {
+    margin-bottom: 50px;
+}
+
+.submit {
+    margin-top: 15px;
+}

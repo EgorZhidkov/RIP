@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="header">
+        <h1>Формы</h1>
+    </div>
+    <div class="form">
+        <form action="" method="post">
+            <div class="text_form">
+                <label>
+                    <input type="text">
+                </label>
+            </div>
+            <div class="check_box_form">
+                <ol>
+                    <label>
+                        <li><input type="checkbox"> Я согласен с условиями </li>
+                    </label>
+
+                    <label>
+                        <input type="checkbox" checked> Использовать мой платёжный адрес
+                    </label>
+                </ol>
+            </div>
+            <div class="radio_form">
+                <label>Семейное положение</label>
+                <ol>
+                    <label>
+                        <li>
+                            Холост
+                            <input type="radio" name="status">
+                        </li> 
+                    </label>
+
+                    <label>
+                        <li>
+                            Женат
+                            <input type="radio" name="status">
+                        </li> 
+                    </label>
+
+                    <label>
+                        <li>
+                        Разведён
+                        <input type="radio" name="status">
+                        </li> 
+                    </label>
+
+                    <label>
+                        <li>
+                            Вдовец
+                            <input type="radio" name="status">
+                        </li> 
+                    </label>
+                </ol>
+            </div>
+            <div class="textarea_form">
+                <label>Комментарий</label><br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </div>
+            <div class="mult_spisok">
+                <label>Какими браузерами вы пользуетесь?<br></label>
+                <select multiple>
+                    <option>Google Chrome</option>
+                    <option>Internet Explorer</option>
+                    <option>Mozilla Firefox</option>
+                    <option>Opera</option>
+                    <option>Safari</option>
+                </select>
+            </div>
+            <div class="spisok">
+                <select>
+                    <option>Январь</option>
+                    <option>Февраль</option>
+                    <option>Март</option>
+                    <option>Апрель</option>
+                    <option>Май</option>
+                    <option>Июнь</option>
+                    <option>Июль</option>
+                    <option>Август</option>
+                    <option>Сентябрь</option>
+                    <option>Октябрь</option>
+                    <option>Ноябрь</option>
+                    <option>Декабрь</option>
+                  </select>
+            </div>
+            <div class="datalist_form">
+                <p>Выберите любимого персонажа:</p>
+                <p><input list="character">
+                    <datalist id="character">
+                        <option value="РИП"></option>
+                        <option value="БКИТ"></option>
+                    </datalist></p>
+            </div>
+            <div class="button_imgage">
+                <button>
+                    <img src="img/unnamed-2.png" alt=""  width="30px" height="30px" style="vertical-align:middle"> 
+                    Кнопка с рисунком
+                   </button>
+            </div>
+            <input type="submit" value="Отправить">
+        </form>
+    </div>
+</body>
+
+</html>
